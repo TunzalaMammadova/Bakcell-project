@@ -1,0 +1,278 @@
+    .header-up-left li:hover {
+        transition: all 0.5s;
+    }
+    
+    .header-up-left ul {
+        padding: 0;
+        margin: 0;
+        height: 40px;
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+    
+    .header-up-left ul li {
+        width: 90px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .header-up-left ul li a {
+        text-decoration: none;
+        color: #5e5c5c;
+        font-size: 13px;
+        font-weight: bold;
+        font-family: 'Lota Grotesque', sans-serif;
+        cursor: pointer;
+        position: relative;
+    }
+    
+    .header-up-left ul li:nth-child(2) {
+        position: relative;
+    }
+    
+    .header-up-left ul li:nth-child(2)::after {
+        content: '';
+        width: 2px;
+        height: 20px;
+        right: 5px;
+        position: absolute;
+        background-color: rgb(197, 197, 197);
+    }
+    
+    .header-up-left ul li:nth-child(3) {
+        position: relative;
+    }
+    
+    .header-up-left ul li:nth-child(3)::after {
+        content: '';
+        width: 2px;
+        height: 20px;
+        right: 7px;
+        position: absolute;
+        background-color: rgb(197, 197, 197);
+    }
+    
+    .header-up-left ul li a:after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 2px;
+        background-color: red;
+        transform: scaleX(0);
+        transform-origin: left;
+        transition: all 0.5s;
+    }
+    
+    .header-up-left ul li a:hover {
+        color: black
+    }
+    
+    .header-up-left ul li a:hover:after {
+        transform: scaleX(1);
+    }
+    
+    .border {
+        width: 100%;
+        height: 2px;
+    }
+    
+    .header-up-center {
+        margin-left: 126px;
+    }
+    
+    .header-up-center ul {
+        padding: 0;
+        margin: 0;
+        height: 40px;
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+    }
+    
+    .header-up-center ul li {
+        width: 90px;
+        height: 40px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .header-up-center ul li i {
+        color: black;
+    }
+    
+    .header-up-center ul li a {
+        text-decoration: none;
+        color: #5e5c5c;
+        font-size: 13px;
+        font-family: 'Lota Grotesque', sans-serif;
+        cursor: pointer;
+        position: relative;
+        font-weight: bold;
+    }
+    
+    .header-up-right {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .header-up-right .icon {
+        display: flex;
+        text-align: center;
+        justify-content: space-evenly;
+        margin-top: 5px;
+        font-size: 22px;
+        width: 70px;
+        height: 30px;
+        border: 1px solid rgb(204, 202, 202);
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    .header-up-right .icon .icon-1 {
+        color: red;
+        margin-top: -3px
+    }
+    
+    .header-up-right .icon .icon-2 {
+        color: grey;
+        font-weight: bold;
+        margin-top: -3px
+    }
+    
+    .header-up-right select {
+        margin-top: 5px;
+        width: 80px;
+        height: 30px;
+        border: 1px solid rgb(204, 202, 202);
+        border-radius: 20px;
+        -webkit-appearance: none;
+        padding-left: 15px;
+        color: rgb(85, 85, 85);
+        cursor: pointer;
+    }
+    
+    .header-up-right .select i {
+        position: absolute;
+        margin-left: -35px;
+        margin-top: 12px;
+        color: rgb(85, 85, 85);
+        cursor: pointer;
+    }
+    
+    .header-up-right option {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    
+    .header-down-left {
+        display: flex;
+        margin-top: 30px;
+    }
+    
+    .header-down-left .content ul {
+        display: flex;
+        list-style: none;
+        gap: 10px;
+    }
+    
+    .header-down-left .content ul li a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
+    
+    .header-down-left .content i {
+        font-size: 10px;
+        color: grey;
+    }
+    
+    .header-down-left .logo img {
+        height: 20px;
+        width: 98px;
+        margin-top: -10px;
+    }
+    
+    .header-down-left .content ul li a:hover {
+        color: red;
+    }
+    
+    .header-down-left .content ul li:hover a i {
+        rotat: 180deg;
+    }
+    
+    .col-12 {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .header-down-right svg {
+        font-size: 22px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    .header-down-right .menu-bar {
+        width: 50px;
+        height: 50px;
+        margin-top: -10px;
+        border-radius: 13px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(245, 245, 245)
+    }
+    
+    .header-down-right {
+        display: flex;
+        margin-top: 30px;
+        margin-right: 150px;
+        gap: 30px;
+    }
+    
+    .header-down-right .join ul {
+        list-style: none;
+    }
+    
+    .header-down-right .join ul li a {
+        text-decoration: none;
+        font-weight: bold;
+        color: red;
+    }
+    
+    .header-down-right .login {
+        margin-top: -6px;
+    }
+    
+    .header-down-right .login button {
+        color: red;
+        width: 120px;
+        height: 40px;
+        border: none;
+        background-color: white;
+        border-radius: 13px;
+        font-weight: bold;
+        font-size: 13px;
+    }
+    
+    .header-down-right .login button:hover {
+        border: 2px solid red;
+        border-radius: 10px;
+    }
+    
+    .header-up-right ul li:nth-child(1) {
+        position: relative;
+    }
+    
+    .header-up-right ul li:nth-child(1)::after {
+        content: '';
+        width: 2px;
+        height: 20px;
+        right: 7px;
+        position: absolute;
+        background-color: rgb(197, 197, 197);
+    }
